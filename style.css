@@ -1,6 +1,70 @@
+body{
+    margin: 0;
+}
+
 .container{
     display: flex;
-    flex-direction: column;
-    width: 50vw;
-    margin-left: 25vw;
+    flex-direction: column; 
+    align-self: center;
+    background-color:#075985 ;
+    padding: 2rem;
+    border-radius: 1rem;
+    color: aliceblue;
+    max-width: 22rem;
+    margin: auto;
+    margin-top: 3rem;
+    
 }
+
+input{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: lightblue;
+    padding: 5px;
+}
+
+button{
+    margin-top: 1rem;
+    cursor: pointer;
+    background-color: lightblue;
+    padding: 5px;
+
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid ;
+}
+td, th{
+    border: 1px solid;
+}
+
+
+nav {
+    max-width: 2000px;
+    background-color:#0369a1;
+    color: aliceblue;
+    padding: 0.5rem;
+    text-align: right;
+    border-bottom-left-radius: 2rem;
+    
+    
+  }
+  nav a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.3em;
+
+    
+  }
+
+  .inline{
+
+    display: inline;
+    padding: 2rem;
+  }
+  
+ nav h1{
+margin-right: 85%;
+
+ }

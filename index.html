@@ -4,19 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="download.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <title>Billing Machine</title>
 </head>
 <body>
+
+    <header>
+        
+        <nav>
+            <h1>Weather App</h1>
+            <ul>
+               
+                 
+                <li class="inline"><a href="https://aryantiwari.netlify.app/blogs.html">Blog</a></li>
+                <li class="inline"><a href="https://aryantiwari.netlify.app">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
     <div class="container">
         <h1 class="heading">Cash Register Manager</h1>
         <p class="description">
             Enter the Bill Amount and cash given user to print the amount and minimum number of notes to return.
         </p>
         <label for="bill-amout">Bill Amount</label>
-        <input id="bill-amout" type="text">
+        <input id="bill-amout" type="text" placeholder="Enter Amount">
         <label for="cash-given">Cash Given</label>
-        <input type="text" id="cash-given">
+        <input type="text" id="cash-given" placeholder="Enter Cash">
         <button id="check-button">Check</button>
 
         <p id="error-message"></p>

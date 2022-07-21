@@ -49,4 +49,3 @@ checkButton.addEventListener("click", function validateBillandCashAmount(){
 
 
 });
-
